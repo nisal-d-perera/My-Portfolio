@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisal Perera Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d26eb5d21d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Academic</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#extra">Activities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Nisal Perera</span><br>From Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--- - - - about - - - --->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/NP.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>I'm an enthusiastic investigator, motivated by an
+                        insatiable need to discover significant truths. Also I am a detail-oriented programmer with a passion for 
+                        crafting efficient and elegant solutions to complex problems. My
+                        proactive approach to problem-solving is diving deeply
+                        into difficulties until I discover long-term solutions.
+                        Experience in multiple programming languages. I am dedicated 
+                        to writing clean, maintainable code. Currently, I am undergraduate 
+                        and expanding my knowledge and skills in various technologies.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Development</span><br>Design & Develop Web Applications</li>
+                            <li><span>App Development</span><br>Building Mobile Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 October - Present</span><br><br>Trainee Demonstrator & Lecturer Assistant <br>BCI - School of Computing</li>
+                            <li><span>2022 August - 2023 January</span><br><br>Data Entry Operator (Remote) <br>SearchSpace GEO - Canada</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 May - Present</span><br><br>Bachelor of Science Honours in Information Technology <br>Benedict XVI Catholoic International Institute, Negombo</li>
+                            <li><span>2007 - 2020</span><br><br>Primary & Secondary Education<br>De Mazenod College, Kandana</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- - - - services - - - --->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Academic Performance</h1>
+            <div class="services-list">
+                <div>
+                    <!-- <i class="fa-solid fa-3"></i> -->
+                    <h2>1st Year 1st Semester</h2>
+                    <ul>
+                        <li>Introduction to Computer Systems                    -   (A)</li>
+                        <li>Fundamentals of Programming                         -   (A)</li>
+                        <li>Fundamentals of Web Design                          -   (A+)</li>
+                        <li>Mathematics for IT                                  -   (A)</li>
+                        <li>English for IT                                      -   (A)</li>
+                    </ul>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-4"></i> -->
+                    <h2>1st Year 2nd Semester</h2>
+                    <ul>
+                        <li>Computer Networks                                   -   (A-)</li>
+                        <li>Operating Systems                                   -   (A+)</li>
+                        <li>Database Management System                          -   (A+)</li>
+                        <li>System Analysis & Design                            -   (A+)</li>
+                    </ul>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+            <div class="services-list">
+                <div>
+                    <!-- <i class="fa-solid fa-3"></i> -->
+                    <h2>2nd Year 1st Semester</h2>
+                    <ul>
+                        <li>Software Engineering Methods                        -   (A)</li>
+                        <li>Object Oriented Programming                         -   (A+)</li>
+                        <li>Data Structures & Algorithms                        -   (A+)</li>
+                        <li>Computer Architecture & Organization                -   (A)</li>
+                        <li>Web Programming                                     -   (A)</li>
+                        <li>Introduction to Probability & Statistics            -   (A)</li>
+                    </ul>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-4"></i> -->
+                    <h2>2nd Year 2nd Semester</h2>
+                    <ul>
+                        <li>Visual Application Programming - A+</li>
+                        <li>Multimedia Development                              -   (A)</li>
+                        <li>IT Project Management                               -   (A)</li>
+                        <li>Cyber Security Fundamentals                         -   (B+)</li>
+                        <li>Research Methodology & Scientific Communication     -   (A)</li>
+                        <li>Group Software Project                              -   (A)</li>
+                    </ul>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See More</a> -->
+        </div>
+    </div>
+
+    <!--- - - - portfolio - - - --->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/SMS3.jpg">
+                    <div class="layer">
+                        <h3>Student Management System</h3>
+                        <p>The web application integrated with Results Management System to 
+                            control & store all the student details and activities, specially with their profiles.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/BRS.jpg">
+                    <div class="layer">
+                        <h3>Bus Ticket Reservation System</h3>
+                        <p>It is a web application where customers can log into
+                            the system and book a ticket. It generates e-ticket
+                            with QR code. Administrators can generate reports.
+                            </p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/LMS1.png">
+                    <div class="layer">
+                        <h3>Lecturer Management System</h3>
+                        <p>Designed and developed a web application for the
+                            university to store and maintain lecturer information.
+                            Lecturers can see lecture schedules and materials.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <a href="projects.html" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!--- - - - extra curricular - - - --->
+    <div id="extra">
+        <div class="container">
+            <h1 class="sub-title">Extra Curricular Activities</h1>
+            <div class="extra-list">
+                <div>
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h2>At University</h2>
+                    <ul>
+                        <li><span>Event Coordinator</span><br>BCI Coding Club</li>
+                        <li><span>Member</span><br>BCI Leo Club</li>
+                        <li><span>Cheif Event Coordinator</span><br>BCI CodemiZe'23 & '22</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>At School</h2>
+                    <ul>
+                        <li><span>Member</span><br>School Carrom Team</li>
+                        <li><span>Member</span><br>School Science Society</li>
+                        <li><span>Member</span><br>School Astronomy Society</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fa-solid fa-church"></i>
+                    <h2>At Church</h2>
+                    <ul>
+                        <li><span>Member</span><br>Media Unit - Youth Society</li>
+                        <li><span>Member</span><br>Young Catholic Students</li>
+                        <li><span>Head Prefect</span><br>Sunday School</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extra-list">
+                <div align=center>
+                    <i class="fa-solid fa fa-list"></i>
+                    <h2>Events</h2>
+                    <ul>
+                        <li><span>Participated in International Workshop on AI & Robotics</span><br>Shibaura Institute of Technology, Tokyo, Japan</li>
+                        <li><span>Participated in ICIPRoB’ 2024</span><br>International Conference on Image Processing & Robotics</li>
+                        <li><span>Participated in BRAINSTORM 2024</span><br>The Premier Healthcare Innovation Competition</li>
+                        <li><span>Participated in SLAAI-ICAI-2023</span><br>Sri Lanka Association for Artificial Intelligence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- - - - contact - - - --->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> nisalperera486@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +94 71 146 9640</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/nisal.perera.5015"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_nisal.d_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nisal-perera-a0978528a/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/Nisal D. Perera (CV).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Nisal Perera (<i class="fa-thin fa-n"></i><i class="fa-thin fa-p"></i>)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
